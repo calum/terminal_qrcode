@@ -14,3 +14,6 @@ fn main() {
     code.print();
 }
 ```
+
+![](https://raw.githubusercontent.com/calum/terminal_qrcode/master/docs/qr_code.png)
+
