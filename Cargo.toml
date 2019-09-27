@@ -16,4 +16,4 @@ path = "src/lib.rs"
 
 [dependencies]
 qrcode = "0.11"
-terminal_graphics = "*"
+terminal_graphics = "0.1.5"
