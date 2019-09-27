@@ -1,10 +1,18 @@
 [package]
 name = "qr_terminal"
-version = "0.1.0"
-authors = ["calum"]
+version = "0.0.1"
+authors = ["Calum Forster <calumforster@live.co.uk>"]
 edition = "2018"
+description = "Generates and prints a QR code to the terminal."
+license = "MIT/Apache-2.0"
+exclude = ["docs/*"]
+repository = "https://github.com/calum/terminal_qrcode"
+readme = "README.md"
+keywords = ["terminal", "qr", "code", "print", "qrcode"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "qr_terminal"
+path = "src/lib.rs"
 
 [dependencies]
 qrcode = "0.11"
