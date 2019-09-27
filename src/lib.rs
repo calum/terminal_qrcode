@@ -5,7 +5,7 @@ use qrcode::QrCode;
 use terminal_graphics::Display;
 use terminal_graphics::Colour;
 
-fn main() {
+pub fn print_data_as_qr_code() {
     let code = QrCode::new(b"Hello, World!").unwrap();
     let width = code.width();
     let height = (width as f32/2 as f32).ceil() as usize;
